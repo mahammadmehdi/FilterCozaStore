@@ -1,11 +1,12 @@
 #navigation {
-    background-image: url("https://preview.colorlib.com/theme/cozastore/images/slide-01.jpg.webp");
+    // background-image: url("https://preview.colorlib.com/theme/cozastore/images/slide-01.jpg.webp");
     min-height: 100vh;
     width: 100%;
     position: relative;
 
     a {
         color: black;
+     background-color: transparent;
     }
 
     .navbar {
@@ -15,11 +16,15 @@
         width: 65%;
         align-items: center;
         height: 6vh;
+        background-color: transparent;
+        z-index: 2;
+        position: fixed;
 
         .leftNavbar {
             display: flex;
             justify-content: space-between;
             width: 40%;
+            
 
             .headPage {
                 display: flex;
