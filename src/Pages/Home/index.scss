@@ -12,6 +12,7 @@
     flex-direction: column;
     gap: 30px;
     margin-top: 7%;
+    
 
     .filterPage {
         display: flex;
@@ -47,6 +48,9 @@
                 display: flex;
                 gap: 20px;
                 padding-top: 7px;
+               li{
+                cursor: pointer;
+               }
             }
 
             .button {
@@ -61,6 +65,7 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    cursor: pointer;
                 }
 
                 .search {
@@ -71,6 +76,7 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    cursor: pointer;
                 }
             }
         }

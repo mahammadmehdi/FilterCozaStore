@@ -8,7 +8,7 @@ function Navbar() {
     const { handleSearch } = useContext(SearchContext)
     return (
         <div id='navigation'>
-       <carousel/>
+       
             <div className='navbar'>
 
                 <div className='leftNavbar'>
@@ -28,11 +28,7 @@ function Navbar() {
                 </div>
 
             </div>
-            <div className='mainHead'>
-                <div className='category'>Women Collection 2018</div>
-                <h1 className='title'>NEW SEASON</h1>
-                <button className='btn'>SHOP NOW</button>
-            </div>
+            
            
         
             <Slider></Slider>
