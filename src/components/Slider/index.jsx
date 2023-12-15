@@ -45,13 +45,10 @@ function Slider() {
         }}>
           <Carousel
             data={data}
-            time={100000}
+            time={5000}
             width="100%"
             height="100vh"
-
-
             slideNumber={true}
-
             captionPosition="bottom"
             dots={true}
             automatic={true}

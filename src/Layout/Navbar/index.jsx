@@ -17,8 +17,8 @@ function Navbar() {
                         <NavLink to={"/"}><li>Home</li></NavLink>
                         <NavLink><li>Shop</li></NavLink>
                         <NavLink><li>Blog</li></NavLink>
-                        <NavLink><li>About</li></NavLink>
-                        <NavLink><li>Contact</li></NavLink>
+                        <NavLink to={"/about"}><li>About</li></NavLink>
+                        <NavLink to={"/contact"}><li>Contact</li></NavLink>
                     </ul></div>
                 </div>
                 <div className='rightNavbar'>
@@ -31,7 +31,7 @@ function Navbar() {
             
            
         
-            <Slider></Slider>
+            
      
         </div>
     )

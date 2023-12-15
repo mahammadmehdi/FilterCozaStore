@@ -1,0 +1,129 @@
+#aboutPage {
+    margin-top: 3%;
+    margin-bottom: 5%;
+
+    .aboutHeader {
+        background-image: url("https://preview.colorlib.com/theme/cozastore/images/bg-01.jpg.webp");
+        width: 100%;
+        height: 22vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .aboutOurStory {
+        display: flex;
+        width: 70%;
+        margin: auto;
+        margin-top: 3%;
+        justify-content: space-between;
+
+        .ourStory {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+            .header {
+                font-size: 25px;
+            }
+
+            .text {
+                color: #888;
+            }
+        }
+
+        
+        .ourStoryBorder {
+            width: 370px;
+            height: 370px;
+            border: 3px solid gray;
+            position: relative;
+            .ourStoryImage {
+                position: absolute;
+                left: 5%;
+                bottom:5%;
+                z-index: 2;
+                overflow: hidden;
+    
+                .imgStory {
+                    width: 370px;
+                    height: 370px;
+    
+                    &:hover {
+                        transform: scale(1.1);
+                        transition:  700ms;
+    
+                    }
+                }
+            }
+        }
+    }
+
+    .aboutOurMission {
+        display: flex;
+        width: 70%;
+        margin: auto;
+        margin-top: 3%;
+        justify-content: space-between;
+        margin-top: 7%;
+
+        .ourMission {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+            .header {
+                font-size: 25px;
+            }
+
+            .text {
+                color: #888
+            }
+
+            .missionSteve {
+                border-left: 3px solid #888;
+                padding-left: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                .text {
+                    color: #888
+                }
+
+                .text {
+
+                    color: #888
+                }
+            }
+        }
+
+        
+        .ourMissionBorder {
+            width: 370px;
+            height: 370px;
+            border: 3px solid gray;
+            position: relative;
+            .ourMissionImage {
+                position: absolute;
+                right: 5%;
+                bottom:5%;
+                z-index: 2;
+                overflow: hidden;
+    
+                .imgMission {
+                    width: 370px;
+                    height: 370px;
+    
+                    &:hover {
+                        transform: scale(1.1);
+                        transition: 700ms;
+    
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,158 @@
+#contactPage {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+
+    .map {
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+
+        .googleMap {
+            width: 1000%;
+            height: 40vh;
+        }
+    }
+
+    .contactHeader {
+
+        background-image: url("https://preview.colorlib.com/theme/cozastore/images/bg-01.jpg.webp");
+        width: 100%;
+        height: 22vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    .contactBox {
+        width: 70%;
+        display: flex;
+        margin: auto;
+        margin-top: 3%;
+
+        .contactBoxLeft {
+            border: 1px solid #e6e6e6;
+            width: 50%;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 3%;
+            padding-bottom: 3%;
+
+            .header {}
+
+            .contactInput {
+                border: 1px solid #e6e6e6;
+                width: 400px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .fa-envelope {
+                    font-size: 22px;
+                    padding-right: 20px;
+                }
+
+                input {
+                    width: 300px;
+                    outline: none;
+                    border: none;
+                }
+            }
+
+            .contactMessage {
+                .message {
+                    width: 400px;
+                    padding: 10px;
+                    border: 1px solid #e6e6e6;
+                }
+            }
+
+            .btn {
+                width: 400px;
+                height: 40px;
+                border-radius: 22px;
+                background-color: #222;
+                color: white;
+                font-size: 20px;
+            }
+        }
+
+        .contactBoxRight {
+            border: 1px solid #e6e6e6;
+            width: 50%;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            padding: 10%;
+            gap: 50px;
+
+            .adress {
+                display: flex;
+                gap: 30px;
+
+                .icon {}
+
+                .text {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    .head {
+                        color: #333;
+                    }
+
+                    .main {
+                        width: 250px;
+                        color: #888;
+                    }
+                }
+            }
+
+            .letsTalk {
+                display: flex;
+                gap: 30px;
+
+                .icon {}
+
+                .text {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    .head {}
+
+                    .main {
+                        color: #717fe0;
+                    }
+                }
+            }
+
+            .saleSupport {
+                display: flex;
+                gap: 30px;
+
+                .icon {}
+
+                .text {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    .head {}
+
+                    .main {
+                        color: #717fe0;
+                    }
+                }
+            }
+        }
+    }
+}
